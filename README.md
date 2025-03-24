@@ -126,4 +126,12 @@ def main(start_page: int, end_page: int):
     logging.getLogger().addHandler(file_handler)
 
     # 剩余代码保持不变...
+
+高级参数
+参数	说明	示例值
+--start	起始页码（默认0）	--start=5
+--end	结束页码（默认28）	--end=15
+--workers	并发线程数（默认3）	--workers=5
+--timeout	请求超时时间（秒）	--timeout=20
+--retry	失败重试次数（默认3）	--retry=5
 ```
